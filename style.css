@@ -71,8 +71,34 @@ body{
     letter-spacing: .7em;
   }
 
+  @media(max-width: 355px){
 
-  @media (max-width: 720px){
+    .all{
+      margin-left: 3em;
+      padding-left: 2em;
+      margin-right: 5em;
+      font-size: .6em;
+    }
+    .image img{
+      width: 15em;
+    }
+  }
+  @media(min-width: 355px) and (max-width:574px){
+
+    .all{
+      margin-left: 4em;
+      padding-left: 3em;
+      margin-right: 7em;
+      font-size: .7em;
+    }
+    .image img{
+      width: 17em;
+    }
+  }
+
+
+
+  @media (min-width: 575px) and (max-width: 720px){
 
     .main-tittle{
       font-size: 1em;
@@ -102,3 +128,4 @@ body{
     }
 
   }
+
