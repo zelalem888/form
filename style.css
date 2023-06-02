@@ -70,6 +70,13 @@ body{
   .social{
     letter-spacing: .7em;
   }
+  textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 80;
+}
 
   @media(max-width: 355px){
 
@@ -82,6 +89,9 @@ body{
     .image img{
       width: 15em;
     }
+    textarea{
+      width: 80%;
+    }
   }
   @media(min-width: 355px) and (max-width:574px){
 
@@ -93,6 +103,9 @@ body{
     }
     .image img{
       width: 17em;
+    }
+    textarea{
+      width: 80%;
     }
   }
 
@@ -113,6 +126,10 @@ body{
       width: 15em;
       margin: 2em;
     }
+    textarea{
+      width: 80%;
+    }
+  
   }
   @media (min-width: 721px) and (max-width: 1080px){
     
